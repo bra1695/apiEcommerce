@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f17bca20cf95495a754b04d4d4bba536",
+    "content-hash": "621ff5a1dff23d2f48ed63e28be5958f",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1035,6 +1035,52 @@
                 "uuid"
             ],
             "time": "2018-01-20T00:28:24+00:00"
+        },
+        {
+            "name": "rymanalu/factory-generator",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rymanalu/factory-generator.git",
+                "reference": "1d023936d8dd30d9a4b44214106e34c17951d586"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rymanalu/factory-generator/zipball/1d023936d8dd30d9a4b44214106e34c17951d586",
+                "reference": "1d023936d8dd30d9a4b44214106e34c17951d586",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^5.1",
+                "illuminate/support": "^5.1",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rymanalu\\FactoryGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roni Yusuf Manalu",
+                    "email": "rymanalu@gmail.com"
+                }
+            ],
+            "description": "Laravel 5 Model Factory Generator.",
+            "homepage": "https://github.com/rymanalu/factory-generator",
+            "keywords": [
+                "factory",
+                "generator",
+                "laravel",
+                "model",
+                "model factory"
+            ],
+            "time": "2017-03-25T16:40:32+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

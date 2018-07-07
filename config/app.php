@@ -162,6 +162,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Rymanalu\FactoryGenerator\FactoryGeneratorServiceProvider::class,
+
 
         /*
          * Package Service Providers...
